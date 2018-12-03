@@ -1,4 +1,3 @@
-# spring-micro
+# Exercise 7 TDAT3025
 
-Creates two super-simple reactive microservices using Spring
-
+Simple Java springboot microservices for handling an online shop
