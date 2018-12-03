@@ -1,0 +1,6 @@
+server:
+  port: 2224
+  
+spring:
+  application:
+    name: delivery-service

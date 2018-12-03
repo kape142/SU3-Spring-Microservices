@@ -1,0 +1,124 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 480104 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=18208, tid=0x0000000000000ad4
+#
+# JRE version:  (8.0_161-b12) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.161-b12 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000252b800):  JavaThread "Unknown thread" [_thread_in_vm, id=2772, stack(0x00000000023d0000,0x00000000024d0000)]
+
+Stack: [0x00000000023d0000,0x00000000024d0000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x000000000252b800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=2772, stack(0x00000000023d0000,0x00000000024d0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00007ff65c510000 - 0x00007ff65c547000 	D:\Programfiler\JDK\bin\java.exe
+0x00007ffd519f0000 - 0x00007ffd51bd1000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffd376a0000 - 0x00007ffd376b4000 	C:\Program Files\AVAST Software\Avast\x64\aswhooka.dll
+0x00007ffd51900000 - 0x00007ffd519b2000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ffd4ec00000 - 0x00007ffd4ee73000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ffd4f4a0000 - 0x00007ffd4f541000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ffd50370000 - 0x00007ffd5040e000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ffd50310000 - 0x00007ffd5036b000 	C:\WINDOWS\System32\sechost.dll
+0x00007ffd4f010000 - 0x00007ffd4f134000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ffd4ee80000 - 0x00007ffd4f010000 	C:\WINDOWS\System32\USER32.dll
+0x00007ffd4e9e0000 - 0x00007ffd4ea00000 	C:\WINDOWS\System32\win32u.dll
+0x00007ffd4f9b0000 - 0x00007ffd4f9d8000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ffd4ea60000 - 0x00007ffd4ebf2000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ffd4e840000 - 0x00007ffd4e8df000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ffd4e8e0000 - 0x00007ffd4e9da000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ffd43460000 - 0x00007ffd436c9000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.407_none_fb449d63306391e9\COMCTL32.dll
+0x00007ffd4ff80000 - 0x00007ffd502a2000 	C:\WINDOWS\System32\combase.dll
+0x00007ffd4de70000 - 0x00007ffd4deea000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ffd4f400000 - 0x00007ffd4f42d000 	C:\WINDOWS\System32\IMM32.DLL
+0x000000006db40000 - 0x000000006dc12000 	D:\Programfiler\JDK\jre\bin\msvcr100.dll
+0x000000006d2a0000 - 0x000000006db3f000 	D:\Programfiler\JDK\jre\bin\server\jvm.dll
+0x00007ffd4f550000 - 0x00007ffd4f558000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ffd40f20000 - 0x00007ffd40f29000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffd4f430000 - 0x00007ffd4f49c000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ffd41770000 - 0x00007ffd41793000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffd49bc0000 - 0x00007ffd49bca000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ffd416d0000 - 0x00007ffd416fa000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x00007ffd4e7f0000 - 0x00007ffd4e839000 	C:\WINDOWS\System32\cfgmgr32.dll
+0x000000006d290000 - 0x000000006d29f000 	D:\Programfiler\JDK\jre\bin\verify.dll
+0x000000006d260000 - 0x000000006d289000 	D:\Programfiler\JDK\jre\bin\java.dll
+0x000000006d210000 - 0x000000006d233000 	D:\Programfiler\JDK\jre\bin\instrument.dll
+0x000000006d240000 - 0x000000006d256000 	D:\Programfiler\JDK\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -XX:TieredStopAtLevel=1 -Xverify:none -Dspring.output.ansi.enabled=always -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=55597 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.liveBeansView.mbeanDomain -Dspring.application.admin.enabled=true -javaagent:D:\Programfiler\IntelliJ IDEA 2017.2.3\lib\idea_rt.jar=55598:D:\Programfiler\IntelliJ IDEA 2017.2.3\bin -Dfile.encoding=UTF-8 
+java_command: productservice.ProductServiceApplication
+java_class_path (initial): D:\Programfiler\JDK\jre\lib\charsets.jar;D:\Programfiler\JDK\jre\lib\deploy.jar;D:\Programfiler\JDK\jre\lib\ext\access-bridge-64.jar;D:\Programfiler\JDK\jre\lib\ext\cldrdata.jar;D:\Programfiler\JDK\jre\lib\ext\dnsns.jar;D:\Programfiler\JDK\jre\lib\ext\jaccess.jar;D:\Programfiler\JDK\jre\lib\ext\jfxrt.jar;D:\Programfiler\JDK\jre\lib\ext\localedata.jar;D:\Programfiler\JDK\jre\lib\ext\nashorn.jar;D:\Programfiler\JDK\jre\lib\ext\sunec.jar;D:\Programfiler\JDK\jre\lib\ext\sunjce_provider.jar;D:\Programfiler\JDK\jre\lib\ext\sunmscapi.jar;D:\Programfiler\JDK\jre\lib\ext\sunpkcs11.jar;D:\Programfiler\JDK\jre\lib\ext\zipfs.jar;D:\Programfiler\JDK\jre\lib\javaws.jar;D:\Programfiler\JDK\jre\lib\jce.jar;D:\Programfiler\JDK\jre\lib\jfr.jar;D:\Programfiler\JDK\jre\lib\jfxswt.jar;D:\Programfiler\JDK\jre\lib\jsse.jar;D:\Programfiler\JDK\jre\lib\management-agent.jar;D:\Programfiler\JDK\jre\lib\plugin.jar;D:\Programfiler\JDK\jre\lib\resources.jar;D:\Programfiler\JDK\jre\lib\rt.jar;D:\OneDrive - NTNU\Skolearbeid\Systemutvikling 3\spring-micro\ProductService\target\classes;C:\Users\Karl Peter\.m2\repository\org\springframework\boot\spring-boot-starter-webflux\2.0.1.RELEASE\spring-boot-starter-webflux-2.0.1.RELEASE.jar;C:\Users\Karl Peter\.m2\repository\org\springframework\boot\spring-boot-starter\2.0.1.RELEASE\spring-boot-starter-2.0.1.RELEASE.jar;C:\Users\Karl Peter\.m2\repository\org\springframework\boot\spring-boot\2.0.1.RELEASE\spring-boot-2.0.1.RELEASE.jar;C:\Users\Karl Peter\.m2\repository\org\springframework\spring-context\5.0.5.RELEASE\spring-context-5.0.5.RELEASE.jar;C:\Users\Karl Peter\.m2\repository\org\springframework\spring-expression\5.0.5.RELEASE\spring-expression-5.0.5.RELEASE.jar;C:\Users\Karl Peter\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.0.1.RELEASE\spring-boot-autoconfigure-2.0.1.RELEASE.jar;C:\Users\Karl Peter\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.0.1.RELEASE\spring-boot-starter-
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=D:\Programfiler\JDK
+PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;D:\Programfiler\JDK\bin;C:\Program Files\dotnet\;D:\Programfiler\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA GPU Computing Toolkit\cudnn\bin;D:\Programfiler\ffmpeg-4.0.2-win64-static\bin;D:\Programfiler\chromedriver.exe;C:\Users\Karl Peter\AppData\Local\atom\bin;C:\Users\Karl Peter\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\apache-maven-3.5.0\bin;C:\Users\Karl Peter\AppData\Roaming\npm;C:\Program Files\NVIDIA GPU Computing Toolkit\cudnn\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;
+USERNAME=Karl Peter
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 45 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 17134 (10.0.17134.1)
+
+CPU:total 8 (initial active 8) (4 cores per cpu, 2 threads per core) family 6 model 45 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, clmul, ht, tsc, tscinvbit, tscinv
+
+Memory: 4k page, physical 16714240k(5086468k free), swap 19988532k(4988k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.161-b12) for windows-amd64 JRE (1.8.0_161-b12), built on Dec 19 2017 17:52:25 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Mon Nov 19 11:17:30 2018
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

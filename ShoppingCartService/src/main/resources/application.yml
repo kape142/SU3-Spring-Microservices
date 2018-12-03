@@ -1,0 +1,6 @@
+server:
+  port: 2223
+  
+spring:
+  application:
+    name: shopping-cart-service
